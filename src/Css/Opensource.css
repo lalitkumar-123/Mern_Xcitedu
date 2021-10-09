@@ -1,0 +1,316 @@
+@import url(https://fonts.googleapis.com);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans+Condensed:wght@300&family=Raleway:wght@300&family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300&family=Raleway:wght@300&family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300&family=Raleway:wght@300&family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300&family=Raleway:wght@300&family=Ubuntu:wght@300&family=Yomogi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Libre+Baskerville&family=Montserrat&family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300&family=Raleway:wght@300&family=Ubuntu:wght@300&family=Yomogi&display=swap');
+*
+{
+    /* font-family: 'Montserrat', sans-serif;*/
+    
+    font-family: 'Montserrat', sans-serif;
+     font-family: 'Raleway', sans-serif;
+
+     /* font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;  */
+
+/* font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;  */
+
+/* font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Yomogi', cursive;  */
+
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Yomogi', cursive; */
+}
+.main_div
+{
+    width: 100%;
+    margin-top:4.5% ;
+}
+.category_div
+{
+    margin-top: 5.5%;
+}
+.category_menu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1%;
+}
+.sub_menu_div
+{
+    width: 100%; 
+    display: inline;
+    
+}
+.sub_menu
+{
+    flex: 1;    background-color: #0c7d81;
+    color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 5; 
+    position: relative;
+    left: 0;
+    top:0;
+    transition: all ease 1s;   
+}
+.categ_head
+{
+    display: none;
+}
+.categ
+{
+    cursor: pointer;
+    padding: 5px;
+    display: inline;
+}
+/* .categ:hover
+{
+    background-color: rgb(190, 235, 220);
+} */
+@media (max-width:845px) {
+    .category_menu
+    {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        text-align: center;
+        padding-top: 7%;
+        font-size: 0.8rem;
+    }
+    .sub_menu
+    {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+   
+}
+@media (max-width:438px) {
+    .category_menu
+    {
+        
+        padding-top: 15%;
+        font-size: 0.8rem;
+    }
+}
+.Carousel-container
+{   
+    width:100%;
+    margin: auto;
+    
+}
+.overlay-carousel
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-color: white;
+    opacity: 0.6;
+
+}
+.carousel-control-prev-icon
+{
+    background-image: url(../assets/images/leftarrow.png) !important;
+}
+.carousel-control-next-icon
+{
+    background-image: url(../assets/images/rightarrow.png) !important;
+}
+.carousel-caption
+{
+    color:white !important;
+    font-weight: 800;
+}
+a{
+    text-decoration: none !important;
+}
+.second-div
+{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.lower-block
+{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin:0px;
+}
+.left,.right
+{
+    flex:0.05;
+    position: relative;
+    top:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19,62,63);
+    color: aquamarine;
+    border-radius: 50%;
+    /* border:1px solid rgb(19,62,63); */
+    padding: 10px;
+    font-size: 30px;    
+}
+.left:hover
+{
+    background-color: white;
+    color: rgb(19,62,63);
+    border:1px solid rgb(19,62,63); 
+}
+.right:hover
+{
+    background-color: white;
+    color: rgb(19,62,63);
+    border:1px solid rgb(19,62,63);  
+}
+.left::before
+{
+    content: '<';
+}
+.right::before
+{
+    content: '>';
+}
+
+.subjects-div
+{
+    flex:0.9;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: relative;
+    justify-items: center;
+    align-items: center; 
+    height: 50%;
+    width: 100%;
+    padding:20px;
+    margin:1.86%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.subjects-div::-webkit-scrollbar-track
+{
+    background-color:rgb(213,237,237);
+    border: 1px solid rgb(19,62,63);
+    border: 50%;
+}
+.subjects-div::-webkit-scrollbar
+{
+    background-color: rgb(19,62,63);
+    border-radius: 70%;
+}
+.subjects-div::-webkit-scrollbar-thumb
+{
+    background-color: rgb(83,189,175);
+}
+.subjects-div::-webkit-scrollbar-button
+{
+    color:rgb(83,189,175);
+}
+.subject
+{   
+    position: relative;
+    width: 240px;
+    height: 210px;
+    display: block;
+   padding: 10px;
+   transition: all 1s;
+}
+.lower-block .card-img
+{
+    width: 210px;
+    height: 190px;   
+    opacity: 1;
+}
+.lower-block .card-title
+{
+    width: 210px;
+    height: 190px;   
+    position: relative;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(19,62,63,0.9);
+    opacity: 0;
+    transition: all 0.2s;
+    }
+    .lower-block .card-title h3
+{
+    color:white;
+    text-align: center;
+    
+}
+.lower-block .card-title button
+{
+   background-color: white;
+   border-radius: 50px;
+   
+}
+.lower-block .img-div
+{
+    position: absolute;
+    top:0;
+    left:0;
+    margin: 10px;
+}
+.lower-block .card-title:hover
+{
+    background-position: right bottom;
+    opacity: 1;
+}
